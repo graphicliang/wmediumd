@@ -17,6 +17,10 @@ the [backports project](https://backports.wiki.kernel.org/index.php/Main_Page).
 
 Wmediumd requires libnl3.0 and libconfig.
 
+in unbantu
+sudo apt-get install libnl-3-dev libnl-genl-3-dev
+sudo apt-get install libconfig-dev libconfig++-dev
+
 # Building
 ```
 cd wmediumd && make

@@ -7,7 +7,7 @@ delay.
 
 This version is forked from an earlier version, hosted here:
 
-    https://github.com/cozybit/wmediumd
+    https://github.com/bcopeland/wmediumd
 
 # Prerequisites
 
@@ -15,7 +15,7 @@ First, you need a recent Linux kernel with the `mac80211_hwsim` module
 available.  If you do not have this module, you may be able to build it using
 the [backports project](https://backports.wiki.kernel.org/index.php/Main_Page).
 
-Wmediumd requires libnl3.0.
+Wmediumd requires libnl3.0 and libconfig.
 
 # Building
 ```
